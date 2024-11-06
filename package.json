@@ -1,0 +1,21 @@
+{
+  "name": "gt_prisma",
+  "version": "1.0.0",
+  "description": "````\r     1º mkdir meu-projeto-prisma\r     2º cd meu-projeto-prisma\r     3º npm init -y\r ````",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prisma": "^5.22.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0"
+  }
+}
